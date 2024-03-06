@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/look_and_feel">
+
+    <PreferenceCategory android:title="@string/color_scheme">
+        <ListPreference
+            android:key="@string/pref_key_color_theme"
+            android:title="@string/theme"
+            android:entries="@array/color_theme"
+            android:entryValues="@array/color_theme_values"
+            android:defaultValue="@string/pref_default_color_theme"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:key="@string/pref_key_light_color_scheme"
+            android:title="@string/light_scheme"
+            android:entries="@array/light_color_scheme_list"
+            android:entryValues="@array/light_color_scheme_list_values"
+            android:defaultValue="@string/pref_default_light_color_scheme"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:key="@string/pref_key_dark_color_scheme"
+            android:title="@string/dark_scheme"
+            android:entries="@array/dark_color_scheme_list"
+            android:entryValues="@array/dark_color_scheme_list_values"
+            android:defaultValue="@string/pref_default_dark_color_scheme"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+
+
+</androidx.preference.PreferenceScreen>

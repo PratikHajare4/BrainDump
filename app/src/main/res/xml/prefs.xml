@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <androidx.preference.PreferenceScreen
+        android:title="@string/look_and_feel"
+        android:icon="@drawable/ic_palette"
+        android:key="prefs_screen_look_and_feel"/>
+
+    <androidx.preference.PreferenceScreen
+        android:title="Made By: Pratik Hajare"
+       
+       />
+
+
+
+
+
+
+
+
+</androidx.preference.PreferenceScreen>
